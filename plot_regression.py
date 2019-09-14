@@ -8,7 +8,7 @@ import chainer.training as training
 import chainer.backends.cuda as cuda
 import matplotlib.pyplot as plt
 
-def plot_regression(model, ideal, x_train, t_train, x_test, filename="figure_{epoch}.png"):
+def plot_regression(model, ideal, x_train, t_train, x_test, filename="figure_{epoch:03}.png"):
 
     """ Trainer 上の1次元関数プロット機構
 
